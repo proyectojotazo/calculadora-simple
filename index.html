@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora flex-col">
+        <div class="wrapper-screens flex-col">
+            <input type="text" class="wrapper-screens__small-screen" id="small-screen" readonly>
+            <input type="text" class="wrapper-screens__normal-screen" id="normal-screen" value="0" readonly>            
+        </div>
+        <div class="wrapper-buttons">
+            <button class="wrapper-buttons__btn" id="btn-CE">CE</button>
+            <button class="wrapper-buttons__btn" id="btn-C">C</button>
+            <button class="wrapper-buttons__btn" id="btn-rtn">&#11013;</button>
+            <button class="wrapper-buttons__btn" id="btn-op">÷</button>
+            <button class="wrapper-buttons__btn" id="btn-num">7</button>
+            <button class="wrapper-buttons__btn" id="btn-num">8</button>
+            <button class="wrapper-buttons__btn" id="btn-num">9</button>
+            <button class="wrapper-buttons__btn" id="btn-op">×</button>
+            <button class="wrapper-buttons__btn" id="btn-num">4</button>
+            <button class="wrapper-buttons__btn" id="btn-num">5</button>
+            <button class="wrapper-buttons__btn" id="btn-num">6</button>
+            <button class="wrapper-buttons__btn" id="btn-op">-</button>
+            <button class="wrapper-buttons__btn" id="btn-num">1</button>
+            <button class="wrapper-buttons__btn" id="btn-num">2</button>
+            <button class="wrapper-buttons__btn" id="btn-num">3</button>
+            <button class="wrapper-buttons__btn" id="btn-op">+</button>
+            <button class="wrapper-buttons__btn" id="btn-num">0</button>
+            <button class="wrapper-buttons__btn" id="btn-equal">=</button>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
