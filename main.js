@@ -2,8 +2,8 @@
 
 const allButtons = document.querySelectorAll('.wrapper-buttons__btn')
 
-const numButtons = document.querySelectorAll('#btn-num')
-const opButtons = document.querySelectorAll('#btn-op')
+const numButtons = document.querySelectorAll('.btn-num')
+const opButtons = document.querySelectorAll('.btn-op')
 
 const btnCE = document.getElementById('btn-CE')
 const btnC = document.getElementById('btn-C')
