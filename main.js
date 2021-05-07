@@ -19,6 +19,7 @@ let val1, val2, result, op;
 let addedValue = false
 let numPressed = false
 let hasResult = false
+
 /* FUNCTIONS */
 
 const resetAll = () => {
